@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-03T18:14:48 PKT" name="Suite" finished-at="2024-09-03T18:15:19 PKT" duration-ms="30734">
+    <groups>
+    </groups>
+    <test started-at="2024-09-03T18:14:48 PKT" name="Test" finished-at="2024-09-03T18:15:19 PKT" duration-ms="30734">
+      <class name="completeCode.AddToCartTestParts">
+        <test-method is-config="true" signature="gotoApplication()[pri:0, instance:completeCode.AddToCartTestParts@3de8f619]" started-at="2024-09-03T18:14:48 PKT" name="gotoApplication" finished-at="2024-09-03T18:14:52 PKT" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoApplication -->
+        <test-method signature="addToCartTest()[pri:0, instance:completeCode.AddToCartTestParts@3de8f619]" started-at="2024-09-03T18:14:52 PKT" name="addToCartTest" finished-at="2024-09-03T18:14:52 PKT" duration-ms="7" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pageObjects.ProductCatalogue.getProductList()" because "this.pc" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageObjects.ProductCatalogue.getProductList()" because "this.pc" is null
+at completeCode.AddToCartTestParts.addToCartTest(AddToCartTestParts.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:completeCode.AddToCartTestParts@3de8f619]" started-at="2024-09-03T18:14:53 PKT" name="teardown" finished-at="2024-09-03T18:14:54 PKT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="gotoApplication()[pri:0, instance:completeCode.AddToCartTestParts@3de8f619]" started-at="2024-09-03T18:14:54 PKT" name="gotoApplication" finished-at="2024-09-03T18:14:58 PKT" duration-ms="4253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoApplication -->
+        <test-method signature="login()[pri:0, instance:completeCode.AddToCartTestParts@3de8f619]" started-at="2024-09-03T18:14:58 PKT" name="login" finished-at="2024-09-03T18:14:58 PKT" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:completeCode.AddToCartTestParts@3de8f619]" started-at="2024-09-03T18:14:58 PKT" name="teardown" finished-at="2024-09-03T18:14:58 PKT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- completeCode.AddToCartTestParts -->
+      <class name="completeCode.AddToCartSecondTest">
+        <test-method is-config="true" signature="gotoApplication()[pri:0, instance:completeCode.AddToCartSecondTest@6b09fb41]" started-at="2024-09-03T18:14:58 PKT" name="gotoApplication" finished-at="2024-09-03T18:15:03 PKT" duration-ms="4354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoApplication -->
+        <test-method signature="LoginTest()[pri:0, instance:completeCode.AddToCartSecondTest@6b09fb41]" started-at="2024-09-03T18:15:03 PKT" name="LoginTest" finished-at="2024-09-03T18:15:03 PKT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:completeCode.AddToCartSecondTest@6b09fb41]" started-at="2024-09-03T18:15:03 PKT" name="teardown" finished-at="2024-09-03T18:15:03 PKT" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- completeCode.AddToCartSecondTest -->
+      <class name="completeCode.AddToCart">
+        <test-method is-config="true" signature="gotoApplication()[pri:0, instance:completeCode.AddToCart@624ea235]" started-at="2024-09-03T18:15:03 PKT" name="gotoApplication" finished-at="2024-09-03T18:15:08 PKT" duration-ms="4264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoApplication -->
+        <test-method signature="cartTest(java.util.HashMap)[pri:0, instance:completeCode.AddToCart@624ea235]" started-at="2024-09-03T18:15:08 PKT" name="cartTest" data-provider="getData" finished-at="2024-09-03T18:15:11 PKT" duration-ms="3062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Basit2119920!@#, email=bexaj52067@fkcod.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:completeCode.AddToCart@624ea235]" started-at="2024-09-03T18:15:11 PKT" name="teardown" finished-at="2024-09-03T18:15:11 PKT" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="gotoApplication()[pri:0, instance:completeCode.AddToCart@624ea235]" started-at="2024-09-03T18:15:11 PKT" name="gotoApplication" finished-at="2024-09-03T18:15:15 PKT" duration-ms="4006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoApplication -->
+        <test-method signature="cartTest(java.util.HashMap)[pri:0, instance:completeCode.AddToCart@624ea235]" started-at="2024-09-03T18:15:15 PKT" name="cartTest" data-provider="getData" finished-at="2024-09-03T18:15:18 PKT" duration-ms="3118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=2119920Minhax, email=rowef29903@padvn.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:completeCode.AddToCart@624ea235]" started-at="2024-09-03T18:15:18 PKT" name="teardown" finished-at="2024-09-03T18:15:19 PKT" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- completeCode.AddToCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

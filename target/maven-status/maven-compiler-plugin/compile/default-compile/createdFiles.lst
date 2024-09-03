@@ -1,0 +1,6 @@
+pageObjects/LandingPage.class
+pageObjects/CheckoutPage.class
+reusableContents/AbstractComponents.class
+pageObjects/CartPage.class
+resources/ExtentReportNG.class
+pageObjects/ProductCatalogue.class
